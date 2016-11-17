@@ -34,20 +34,20 @@
   "license": "LGPL",
   "devDependencies": {
     "chai": "^3.3.0",
-    "mocha": "^2.3.3",
-    "should": "^7.1.0",
+    "mocha": "^3.1.2",
+    "should": "^11.1.1",
     "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.1"
   },
   "dependencies": {
     "av": "^0.4.4",
-    "browserfs": "^0.5.7",
+    "browserfs": "^1.1.0",
     "create": "0.0.2",
     "is-mime": "^0.3.0",
-    "lodash.assign": "^3.2.0",
-    "lodash.create": "^3.1.1",
+    "lodash.assign": "^4.2.0",
+    "lodash.create": "^4.2.0",
     "mp3": "^0.1.0",
-    "node-browserfs": "^1.0.4",
+    "node-browserfs": "^3.0.1",
     "ogg.js": "^0.1.0",
     "opus.js": "^0.1.1",
     "stream-browserify": "^2.0.1"
