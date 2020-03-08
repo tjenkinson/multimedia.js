@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "av": "^0.4.4",
-    "browserfs": "^0.5.7",
+    "browserfs": "^2.0.0",
     "create": "0.0.2",
     "is-mime": "^0.3.0",
     "lodash.assign": "^3.2.0",
