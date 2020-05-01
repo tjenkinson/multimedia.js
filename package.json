@@ -4,10 +4,11 @@
   "description": "Multimedia streaming framework for browser and node  ",
   "main": "index.js",
   "scripts": {
-    "prepublish": "npm run build",
+    "prepublish": "npm run snyk-protect && npm run build",
     "build": "webpack --optimize-dedupe",
     "test": "mocha",
-    "browser-test": "npm run build && open http://localhost:8080/tests && webpack-dev-server 'mocha!./test/unit_test.js' --output-filename tests.js"
+    "browser-test": "npm run build && open http://localhost:8080/tests && webpack-dev-server 'mocha!./test/unit_test.js' --output-filename tests.js",
+    "snyk-protect": "snyk protect"
   },
   "keywords": [
     "Multimedia",
@@ -50,6 +51,8 @@
     "node-browserfs": "^1.0.4",
     "ogg.js": "^0.1.0",
     "opus.js": "^0.1.1",
-    "stream-browserify": "^2.0.1"
-  }
+    "stream-browserify": "^2.0.1",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
