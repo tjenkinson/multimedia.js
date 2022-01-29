@@ -45,7 +45,7 @@
     "create": "0.0.2",
     "is-mime": "^0.3.0",
     "lodash.assign": "^3.2.0",
-    "lodash.create": "^3.1.1",
+    "lodash.create": "^4.2.0",
     "mp3": "^0.1.0",
     "node-browserfs": "^1.0.4",
     "ogg.js": "^0.1.0",
