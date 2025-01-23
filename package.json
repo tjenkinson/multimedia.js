@@ -42,7 +42,7 @@
   "dependencies": {
     "av": "^0.4.4",
     "browserfs": "^0.5.7",
-    "create": "0.0.2",
+    "create": "0.2.0",
     "is-mime": "^0.3.0",
     "lodash.assign": "^3.2.0",
     "lodash.create": "^3.1.1",
